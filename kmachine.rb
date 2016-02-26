@@ -11,18 +11,18 @@ class Kmachine < Formula
     sha256 "4f57e7170d1f9609d03902a8776c601d75640542bab201019cb12e1798d4b9e9"
   end
 
-  def caveats; <<-EOS.undent
-    To use kmachine on your local computer, you will need to have
-    Virtualbox installed. Please install it from:
-      https://www.virtualbox.org/wiki/Downloads
-    EOS
-  end
-
   bottle :unneeded
 
   def install
     bin.install "kmachine"
     bin.install Dir["kmachine-driver*"]
+  end
+
+  def caveats; <<-EOS.undent
+    To use kmachine on your local computer, you will need to have
+    Virtualbox installed. Please install it from:
+      https://www.virtualbox.org/wiki/Downloads
+    EOS
   end
 
   test do
