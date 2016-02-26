@@ -8,7 +8,7 @@ class Kmachine < Formula
     sha256 "6678be23c2954ce0eeb589b446f0aec55bcbaa59e937d4aee5bb5d58995caf00"
   else
     url "https://github.com/skippbox/kmachine/releases/download/v1.2.0-alpha.8/kmachine_darwin-386.tar.gz"
-    sha256 "1sdrsjc1fbmikh0h3cms882n8x8xc1n7ga027780k5hz1lbyfmsg"
+    sha256 "4f57e7170d1f9609d03902a8776c601d75640542bab201019cb12e1798d4b9e9"
   end
 
   def caveats; <<-EOS.undent
