@@ -6,9 +6,9 @@ To update a formula, the following fields need to be upgraded:
  - `url`
  - `sha256`
 
-All those field are strings.
+All those fields are strings.
 
-You can directly update from `/usr/local/Library/Taps/skippbox/`, this will help for the following.
+You can directly update from `/usr/local/Library/Taps/skippbox/`, this will help for debugging install, testing, and audit.
 
 Test the formula installation with:
 
