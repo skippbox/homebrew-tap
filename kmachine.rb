@@ -1,14 +1,14 @@
 class Kmachine < Formula
   desc "Single Node Kubernetes cluster"
   homepage "http://www.skippbox.com"
-  version "1.2.0"
+  version "1.2.1"
 
   if MacOS.prefer_64_bit?
-    url "https://github.com/skippbox/kmachine/releases/download/v1.2.0/kmachine_darwin-amd64.tar.gz"
-    sha256 "398aa738d93c41c9609e464e05c9f81bce3bc64ffffe73bc4232791e98f37175"
+    url "https://github.com/skippbox/kmachine/releases/download/v1.2.1/kmachine_darwin-amd64.tar.gz"
+    sha256 "5e33dd226125e95307dc39c066679086e3cfec3147953e1a1a1e0d8753b90958"
   else
-    url "https://github.com/skippbox/kmachine/releases/download/v1.2.0/kmachine_darwin-386.tar.gz"
-    sha256 "cfa2d4745ed672561f1ef6184d4043ec49cf3b979dd0930ae7eb5a36052652cc"
+    url "https://github.com/skippbox/kmachine/releases/download/v1.2.1/kmachine_darwin-386.tar.gz"
+    sha256 "8f2d3bb33a7e7aea4023f6d916bb37674440a3edb624752720b00e57e4c39be5"
   end
 
   bottle :unneeded
